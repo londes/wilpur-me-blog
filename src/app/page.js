@@ -1,11 +1,12 @@
 import styles from "./page.module.css";
+// import Image from "next/image";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      blog.wilpur.me yaya
+      <h2>wingchilla</h2>
+      <p>this is some information about chilla wings, which are wings that are chilla. if there was more information on wingchillas I would like to know.</p>
     </main>
-
     // <main className={styles.main}>
     //   <div className={styles.description}>
     //     <p>
@@ -94,5 +95,5 @@ export default function Home() {
     //     </a>
     //   </div>
     // </main>
-  );
+  )
 }
